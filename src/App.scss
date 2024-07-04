@@ -1,0 +1,19 @@
+@import './components/variables/Variables.scss';
+
+body {
+    text-align: center;
+    background-color: $bodyColor;
+}
+
+input, button {
+    background-color: $lightBlue;
+    font-size: 15px;
+}
+
+input {
+    margin: 5px;
+
+    &::placeholder {
+        color: $darkBlue;
+    }
+}
